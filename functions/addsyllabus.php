@@ -22,7 +22,6 @@
             echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
         }
         else{
-            $result = mysqli_query($db, "<<UPDATE SQL QUERY>>"):
             $result = mysqli_query($db, "<<UPDATE SQL QUERY>>");
             echo "<font color='green'>DATA added successfully.</font>";
             echo "<br/><a href='../index.php>View Result</a>'";
